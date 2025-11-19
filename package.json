@@ -1,11 +1,11 @@
 {
   "name": "ytdlp-api",
   "version": "1.0.0",
-  "description": "Full working YT-DLP API for mp3/video download",
-  "main": "server.js",
+  "description": "YT-DLP API with Docker",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
